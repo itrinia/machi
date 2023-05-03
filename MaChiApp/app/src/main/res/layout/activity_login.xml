@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/wallUtama"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/DarkGreen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/wallpaperdarkgreen"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/wallKedua"
+        android:layout_width="0dp"
+        android:layout_height="580dp"
+        android:contentDescription="@string/wallkedua"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/loginlight"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/logoUtama"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/logoutama"
+        app:layout_constraintBottom_toTopOf="@+id/wallKedua"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/wallUtama"
+        app:srcCompat="@drawable/machi_logo" />
+
+    <TextView
+        android:id="@+id/LoginTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/login"
+        android:textAllCaps="true"
+        android:textColor="#F9F2F2"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/logoUtama"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="@+id/logoUtama"
+        app:layout_constraintTop_toTopOf="@+id/wallKedua"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/wallForm"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="65dp"
+        android:contentDescription="@string/wallform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/wallUtama"
+        app:layout_constraintTop_toBottomOf="@+id/LoginTextView"
+        app:srcCompat="@drawable/wallpaperwhitecream"
+        tools:ignore="ImageContrastCheck" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/EmailLayoutLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        app:boxBackgroundColor="#F9F2F2"
+        app:startIconDrawable="@drawable/mail"
+        app:layout_constraintEnd_toEndOf="@+id/wallForm"
+        app:layout_constraintStart_toStartOf="@+id/wallForm"
+        app:layout_constraintTop_toTopOf="@+id/wallForm">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/EmailInputLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/e_mail"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/PasswordLayoutLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:boxBackgroundColor="#F9F2F2"
+        app:startIconDrawable="@drawable/lock"
+        app:layout_constraintEnd_toEndOf="@+id/EmailLayoutLogin"
+        app:layout_constraintStart_toStartOf="@+id/EmailLayoutLogin"
+        app:layout_constraintTop_toBottomOf="@+id/EmailLayoutLogin">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/PasswordInputLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/Password"
+            tools:ignore="TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/LoginButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/custom2"
+        android:text="@string/loginButton"
+        android:textColor="#F9F2F2"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/RegisterButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/custom2"
+        android:text="@string/registerButton"
+        android:textColor="#F9F2F2"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/LoginButton"
+        app:layout_constraintStart_toStartOf="@+id/LoginButton"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/option_choice"
+        app:layout_constraintEnd_toEndOf="@+id/PasswordLayoutLogin"
+        app:layout_constraintStart_toStartOf="@+id/PasswordLayoutLogin"
+        app:layout_constraintTop_toBottomOf="@+id/PasswordLayoutLogin" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="@string/or"
+        app:layout_constraintEnd_toEndOf="@+id/LoginButton"
+        app:layout_constraintStart_toStartOf="@+id/LoginButton"
+        app:layout_constraintTop_toBottomOf="@+id/LoginButton" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

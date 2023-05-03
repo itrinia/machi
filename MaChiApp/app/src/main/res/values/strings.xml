@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">MaChiApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="swipe_left_for_register">Swipe Left for Register</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="e_mail">Email</string>
+    <string name="tag">Let\'s join us and \nBuild your relationship with others</string>
+    <string name="swipe_right_for_login">Swipe Right for Login</string>
+    <string name="register">Register</string>
+    <string name="re_type_password">Re-type Password</string>
+    <string name="your_name">Full Name</string>
+    <string name="DarkGreen">TODO</string>
+    <string name="wallkedua">wallKedua</string>
+    <string name="logoutama">logoUtama</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="wallform">wallForm</string>
+    <string name="username">Username</string>
+    <string name="Password">Password</string>
+    <string name="loginButton">Login</string>
+    <string name="registerButton">Register</string>
+    <string name="option_choice">Option Choice</string>
+    <string name="or">Or</string>
+    <string name="back">back</string>
+    <string name="users">users</string>
+    <string name="lorem_ipsum_dolor_sit_er_elit_lamet_consectetaur_cillium_adipisicing_pecu_sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua_ut_enim_ad_minim_veniam_quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo_consequat_duis_aute_irure_dolor_in_reprehenderit_in_voluptate_velit_esse_cillum_dolore_eu_fugiat_nulla_pariatur_excepteur_sint_occaecat_cupidatat_non_proident_sunt_in_culpa_qui_officia_deserunt_mollit_anim_id_est_laborum_nam_liber_te_conscient_to_factor_tum_poen_legum_odioque_civiuda">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+    <string name="logout">logout</string>
+    <string name="textview">TextView</string>
+    <string name="logo">logo</string>
+    <string name="topcorner">topCorner</string>
+    <string name="logomachi">logoMaChi</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="whitewall">WhiteWall</string>
+    <string name="usernameEdit">Username</string>
+    <string name="emailEdit">Email</string>
+    <string name="passwordEdit">Password</string>
+    <string name="save_change">Save Change</string>
+    <string name="test">Test</string>
+
+    <string name="txt_title">Title</string>
+    <string name="txt_description">Description</string>
+    <string name="txt_search">Search</string>
+    <string name="txt_sort_by">Sort By</string>
+    <string name="txt_priority_high">Priority High</string>
+    <string name="txt_priority_low">Priority Low</string>
+    <string name="txt_delete_all">Delete All</string>
+    <string name="txt_save">Save</string>
+    <string name="txt_delete">Delete</string>
+
+    <string name="content_fab_add_a_note">FAB Add A Note</string>
+    <string name="content_image_no_data">Image No Data</string>
+    <string name="txt_priority">Priority</string>
+    <string name="txt_date">Date</string>
+    <string name="txt_update">Update</string>
+    <string name="txt_edited_on">Edited on:</string>
+
+    <array name="priorities">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </array>
+
+    <string name="change_note_background_color">Change Note Background Color</string>
+    <string name="text_delete">Delete</string>
+    <string name="text_save">Save</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="text_read">Read</string>
+    <string name="title_notes">Notes</string>
+    <string name="notes_hint">Enter notes here</string>
+    <string name="note_text_hint">Note Text</string>
+    <string name="fake_date">01–01–01 01:01:01</string>
+    <string name="filename_hint">Filename</string>
+    <string name="lines_text_1">1</string>
+    <string name="hint_note_text">Note Text</string>
+    <string name="green">Green</string>
+    <string name="orange">Orange</string>
+    <string name="purple">Purple</string>
+    <string name="edit_note_title">Edit Note</string>
+    <string name="add_note_title">Add Note</string>
+    <string name="filter_note_by_priority">Filter Note By Priority</string>
+    <string name="priority_1">Priority 1</string>
+    <string name="priority_2">Priority 2</string>
+    <string name="priority_3">Priority 3</string>
+    <string name="sort_notes_by">Sort Notes By…</string>
+    <string name="date_modified_ascending">Date Modified Ascending</string>
+    <string name="date_modified_descending">Date Modified Descending</string>
+    <string name="filename_ascending">Filename Ascending</string>
+    <string name="filename_descending">Filename Descending</string>
+    <string name="priority_ascending">Priority Ascending</string>
+    <string name="priority_descending">Priority Descending</string>
+    <string name="note_add_success">Note was added successfully</string>
+    <string name="file_exist">That file already exists</string>
+
+    <string-array name="prioritiesList">
+        <item>(priority)</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>
